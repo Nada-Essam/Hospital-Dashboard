@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏥 Hospital Dashboard
 
-## Getting Started
+A responsive hospital management dashboard built with Next.js and Tailwind CSS. The application provides an organized interface for managing hospital-related data, including doctors, patients, appointments, and prescriptions.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[View Live Demo](https://hospital-dashboard-tau-ten.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Authentication:** Register and log in using locally stored demo accounts.
+- **Dashboard:** Access the hospital dashboard after logging in.
+- **Doctors Management:** View and manage doctor records.
+- **Patients Management:** View and manage patient records.
+- **Appointments Management:** Organize and track appointments.
+- **Prescriptions Management:** View and manage prescription records.
+- **Form Validation:** Validate user input using React Hook Form and Zod.
+- **Responsive Design:** Designed to work across different screen sizes.
+- **Local Storage:** Store demo accounts and application data in the browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Built With
 
-## Learn More
+- Next.js
+- React
+- JavaScript
+- Tailwind CSS
+- React Hook Form
+- Zod
+- Recharts
+- Lucide React
+- React Spinners
+- Local Storage
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js
+- npm
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/Nada-Essam/Hospital-Dashboard.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Hospital-Dashboard
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📁 Main Pages
+
+- `/login` — Login page
+- `/register` — Registration page
+- `/dashboard` — Main dashboard
+- `/dashboard/doctors` — Doctors page
+- `/dashboard/patients` — Patients page
+- `/dashboard/appointments` — Appointments page
+- `/dashboard/prescriptions` — Prescriptions page
+
+## 📝 Notes
+
+- This project uses browser Local Storage for demo authentication and data persistence.
+- It does not currently use a backend server or a shared database.
+- Demo data is stored separately in each browser.
+
+## 👩‍💻 Author
+
+**Nada Essam**
+
+- GitHub: [Nada-Essam](https://github.com/Nada-Essam)
+- Portfolio: [My Portfolio](https://nada-essam.github.io/My-Portfolio/)
