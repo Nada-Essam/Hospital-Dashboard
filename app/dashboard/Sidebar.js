@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-export default function Sidebar({ sidebarOpen }) {
+export default function Sidebar({ sidebarOpen , setSidebarOpen}) {
   const links = [
     { title: "Dashboard", href: "/dashboard" },
     { title: "Doctors", href: "/dashboard/doctors" },
@@ -58,6 +58,7 @@ export default function Sidebar({ sidebarOpen }) {
             <li key={link.title}>
               <Link
                 href={link.href}
+                onClick={() => setSidebarOpen(false)}
                 className="block px-4 py-2 rounded-lg hover:bg-blue-100"
               >
                 {link.title}

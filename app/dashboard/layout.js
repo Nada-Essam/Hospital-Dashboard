@@ -43,7 +43,7 @@ export default function Layout({ children }) {
           />
         )}
 
-        <Sidebar sidebarOpen={sidebarOpen} />
+        <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
         {children}
       </div>
