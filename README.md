@@ -92,16 +92,16 @@ A responsive hospital management dashboard built with Next.js and Tailwind CSS. 
 ## 📸 Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](docs/images/dashboard.png)
+![Dashboard Overview](docs/images/dashboard.PNG)
 
 ### Doctors Management
-![Doctors Management](docs/images/doctors.png)
+![Doctors Management](docs/images/doctors.PNG)
 
 ### Patients Management
-![Patients Management](docs/images/patients.png)
+![Patients Management](docs/images/patients.PNG)
 
 ### Appointments Management
-![Appointments Management](docs/images/Capture.png)
+![Appointments Management](docs/images/Capture.PNG)
 
 ### Prescriptions Management
-![Prescriptions Management](docs/images/Prescriptions.png)
+![Prescriptions Management](docs/images/Prescriptions.PNG)
