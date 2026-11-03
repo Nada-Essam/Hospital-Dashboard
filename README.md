@@ -88,3 +88,20 @@ A responsive hospital management dashboard built with Next.js and Tailwind CSS. 
 
 - GitHub: [Nada-Essam](https://github.com/Nada-Essam)
 - Portfolio: [My Portfolio](https://nada-essam.github.io/My-Portfolio/)
+
+## 📸 Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](docs/images/dashboard.png)
+
+### Doctors Management
+![Doctors Management](docs/images/doctors.png)
+
+### Patients Management
+![Patients Management](docs/images/patients.png)
+
+### Appointments Management
+![Appointments Management](docs/images/Capture.png)
+
+### Prescriptions Management
+![Prescriptions Management](docs/images/Prescriptions.png)
