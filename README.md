@@ -101,7 +101,7 @@ A responsive hospital management dashboard built with Next.js and Tailwind CSS. 
 ![Patients Management](docs/images/patients.PNG)
 
 ### Appointments Management
-![Appointments Management](docs/images/Capture.PNG)
+![Appointments Management](docs/images/appoinments.PNG)
 
 ### Prescriptions Management
 ![Prescriptions Management](docs/images/Prescriptions.PNG)
